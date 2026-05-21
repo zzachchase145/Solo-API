@@ -1,0 +1,7 @@
+This is an api im trying to make without ai to improve my ability to problem solve and not rely on ai.
+
+We will be creating a simple complaints ai automated call agen for a hotel. 
+guests will call to ether complain or put in a request or ask questions and the ai should be able to do that.
+
+To start we will just be making it mainly based on complaints we will extract the fields from our vapi call
+then input them into postgress.
