@@ -2,20 +2,17 @@
 # IMPORTS
 # =====================================================================================================
 
+from fastapi import FastAPI
+from main import app
 
 
-
-
-
+# ==========================================================================================================
+# CUSTOMER STAY COMPLAINT HOTEL
+# =========================================================================================================
 
 # getting a basic get route to get my server running
 
-@app.get('/')
-async def root():
-    print('server is working!')
+@app.post('/hotel-complaints')
 
-
-@app.post('/customer_complaints')
-
-def recieve_customer_complaint():
-    
+def create_hotel_complaint():
+    pass
