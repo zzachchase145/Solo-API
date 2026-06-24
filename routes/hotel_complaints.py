@@ -15,4 +15,9 @@ from main import app
 @app.post('/hotel-complaints')
 
 def create_hotel_complaint():
-    pass
+    
+    return {
+        'id': app.get('id'),
+        'caller_number': app.get('caller_number'),
+        'caller_name': app.get('caller_name')
+    }
